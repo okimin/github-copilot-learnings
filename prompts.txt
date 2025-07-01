@@ -1,0 +1,149 @@
+# Context
+I have a Python function read_lines in read_lines.py that reads lines from a text file, but it lacks proper exception handling.
+
+# Instruction
+Refactor this function to handle file-not-found and permission errors robustly.
+
+# Constraints
+• Must return an empty list if the file is not found.
+• Must re-raise permission errors with extra context.
+• Keep the function signature unchanged.
+
+# Persona
+Act as a senior Python developer.
+
+# Style
+Use Google-style docstrings; follow PEP-8.
+
+My take -
+# Context
+I have a javascript class named BankAccount that has a constructor and 2 functions of withdrawing and deposit.
+
+# Instruction
+Convert this program into Python Python 3.13.5.
+
+# Constraints
+• Don't add extra functions or change the function signatures.
+• Don't add additional comments.
+
+# Persona
+Act as a senior Python and Javascript developer.
+
+# Style
+Use Google-style docstrings; follow PEP-8.
+
+Educative Answer
+# Context
+I have a Python class BankAccount that models a simple checking account with deposit and withdraw methods.
+
+# Instruction
+Convert this class to idiomatic modern JavaScript (ES2022).
+
+# Constraints
+• Use private fields (#balance).
+• Raise Error with the same validation messages.
+• Keep methods: deposit, withdraw, toString.
+
+# Persona
+Act as a senior JavaScript developer.
+
+# Style
+Follow modern JS conventions; write clear, readable code.
+
+# Context  
+I have an is_valid_email function in email_utils.py that checks if an email address is valid.
+
+# Instruction  
+Write a Python test file named test_email.py using pytest to test the is_valid_email function.
+
+# Constraints  
+Include at least 3 valid email test cases and 3 invalid email test cases.  
+Use clear and readable assertions.  
+Assume email_utils.py is in the same directory.  
+Include an edge case with sub-domain (e.g., user@mail.example.com).
+
+# Persona  
+Act as a senior Python developer writing beginner-friendly tests.
+
+# Style  
+Write clean, simple, and easy-to-read test code.
+
+
+My take
+
+# Context  
+I have an Calculator class in Calculator.py that has basic functions for algebra.
+
+# Instruction  
+Write a Python test file named test_calculator.py using pytest to the four functions.
+
+# Constraints  
+Include at least 2 valid test cases and 2 invalid test cases for each function.  
+Use clear and readable assertions.  
+Assume calculator.py is in the same directory.
+Include an edge case where one of the numbers is a floating number.  
+Include an edge case to handle the division by 0.
+
+# Persona  
+Act as a senior Python developer writing beginner-friendly tests.
+
+# Style  
+Write clean, simple, and easy-to-read test code.
+
+Educative take
+
+# Context
+I have a Calculator class with add, sub, mul, and div methods.
+
+# Instruction
+Write a test suite for Calculator using [pytest / Jest] that covers normal operations and division by zero.
+
+# Constraints
+• Use clear, readable assertions.
+
+# Persona
+Act as a senior Python or JavaScript developer.
+
+# Style
+Write clean, concise, and beginner-friendly test code.
+
+
+My take 
+
+# Context
+I have a BankAccount class with deposit and withdraw methods.
+
+# Instruction
+Write a test suite for BankAccount using [pytest / Jest] that depositing and withdrawing with positive values.
+
+# Constraints
+Make sure to create the object.
+Use clear, readable assertions.
+Include edge case of when the user withdraws more than the balance. 
+
+
+# Persona
+Act as a senior Python developer.
+
+# Style
+Write clean, concise, and beginner-friendly test code.
+
+
+Educative Take
+
+# Context
+BankAccount supports deposit, withdraw, and balance.
+
+# Instruction
+Write a test file using [pytest / Jest] covering valid operations and all error cases.
+
+# Constraints
+• At least 6 test cases. • Keep the test file under 35 lines. • Use descriptive test names.
+
+
+# Persona
+Act as a senior Python or JavaScript developer.
+
+# Style
+Write clean, concise, and beginner-friendly test code.
+Remember to cover all the methods and error cases in your tests, keep the test file concise, and use clear and descriptive names for your test functions.
